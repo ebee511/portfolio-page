@@ -1,0 +1,89 @@
+/*@media screen and (max-width: 649px) {
+	.bio, .resume., .portfolio {
+		margin: auto;
+	}
+}*/
+
+@media screen and (max-width: 377px) {
+	.header h1 {
+		font-size: 2.6em;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.featured-title {
+		margin-top: 50px;
+	}
+}
+
+/* IN MOBILE VIEW, SEPARATES THE COLUMNS */
+@media screen and (max-width: 649px) {
+	.bio, 
+	.portfolio, 
+	.resume {
+		margin-bottom: 20px;
+	}
+}
+
+/* SPLITS FOR THE 2-1 IN TABLET VIEW */
+@media screen and (min-width: 650px) and (max-width: 949px) {
+	.bio, 
+	.portfolio {
+		width: 45%;
+		/*margin: 10px auto;*/
+	}
+
+	.resume {
+		width: 45%;
+		margin-top: 40px;
+	}
+}
+
+/* IN A 2-1 SPLIT, CONTAINS THE MAIN TO 850PX */
+@media screen and (min-width: 850px) {
+	.hero, 
+	.featured-work {
+		width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.hero img {
+		width: 100%;
+	}
+}
+
+/* ALIGNS FEATURED WORK TITLE TEXT FOR MOBILE AND TABLET */
+@media screen and (max-width: 949px) {
+	.featured-title {
+		text-align: center;
+	}
+}
+
+/* DESKTOP - PUTS 3 COLUMNS IN ROW */
+@media screen and (min-width: 950px) {
+	.featured-work-container {
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+	}
+
+	.bio, 
+	.portfolio, 
+	.resume {
+		width: 30%;
+	}
+
+	.bio, 
+	.resume {
+		margin: 0;
+	}
+
+	.portfolio {
+		margin: auto;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}

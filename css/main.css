@@ -1,0 +1,160 @@
+body {
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	margin-top: 0;
+}
+
+/* HEADER */
+.header {
+	width: 100%;
+	display: inline-block;
+	border-bottom: 3px solid #2d3c49;
+}
+
+.header h1 {
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 100;
+	color: #2d3c49;
+}
+
+.header h3 {
+	margin: 0;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #2d3c49;
+}
+
+#logo {
+	width: 100px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+
+/* MAIN */
+main {
+	width: 100%;
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* HERO */
+
+.hero {
+	width: 100%;
+	/*background-image: url("./images/laptop-glasses copy.png");
+	background-size: cover;*/
+	margin-top: 10px;
+}
+
+.hero img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+/* FEATURED WORK */
+
+.featured-work-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.featured-title {
+	margin-top: 20px;
+	font-weight: 400;
+	color: #7d97ad;
+}
+
+.featured-subtext {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #2d3c49;
+	margin-bottom: 5px;
+}
+
+.bio, 
+.portfolio, 
+.resume {
+	margin: auto;
+}
+
+/* BIO */
+.bio img {
+	width: 100%;
+}
+
+.bio h4 {
+	text-align: center;
+}
+
+.bio p {
+	text-align: center;
+	color: #2d3c49;
+}
+
+/* PORTFOLIO */
+.portfolio img {
+	width: 100%;
+}
+
+.portfolio h4 {
+	text-align: center;
+}
+
+.portfolio p {
+	text-align: center;
+	color: #2d3c49;
+}
+
+/* RESUME */
+.resume img {
+	width: 100%;
+}
+
+.resume h4 {
+	text-align: center;
+}
+
+.resume p {
+	text-align: center;
+	color: #2d3c49;
+}
+
+/* FOOTER */
+footer {
+	margin: 40px auto auto 0px;
+	font-size: 50px;
+	border-top: 3px solid black;
+	width: 100%;
+	background-color: black;
+}
+
+.linked-in {
+	margin: auto 30px;
+}
+
+.footer-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer a {
+	color: white;
+}
