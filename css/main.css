@@ -84,6 +84,11 @@ main {
 	flex-wrap: wrap;
 }
 
+.featured-work-spacing {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .featured-title {
 	margin-top: 20px;
 	font-weight: 400;
