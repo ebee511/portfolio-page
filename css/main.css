@@ -157,20 +157,64 @@ main {
   margin: auto;
 }
 
-/* form {
+form {
+  width: 400px;
+  padding: 1em;
   border: 1px solid #000;
-  border-radius: 2em;
-} */
+  border-radius: 1em;
+}
 
 form ul {
   list-style: none;
   padding: 0;
 }
 
-/* form ul li {
-  margin: auto;
-  width: 80%;
-} */
+form li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment - credit MDN.com */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* Erase the default text of textareas */
+  font: 1em sans-serif;
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  /* Align text area label at the top; defaults at bottom */
+  vertical-align: top;
+  /* Sizes the textarea box size- same size as label elements */
+  height: 5em;
+}
+
+.button {
+  /* Align button center */
+  text-align: center;
+}
+
+button {
+  /* Style button */
+  background-color: dodgerblue;
+  border-radius: 4px;
+  font-size: 0.8em;
+  width: 150px;
+  height: 50px;
+}
 
 /* FOOTER */
 footer {
